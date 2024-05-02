@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './components/HomePage';
+import PaletteExplorerPage from './components/PaletteExplorerPage';
+import SymbolismExplorerPage from './components/SymbolismExplorerPage';
+import ColorSwapPage from './components/ColorSwapPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/palettes" element={<PaletteExplorerPage />} />
+        <Route path="/symbolism" element={<SymbolismExplorerPage />} />
+        <Route path="/color-swap" element={<ColorSwapPage />} />
+      </Routes>
+    </Router>
   );
 }
 
