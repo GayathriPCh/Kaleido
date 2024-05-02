@@ -67,7 +67,7 @@ const AiwithImage = () => {
                     <input type='file' onChange={(e) => handleImageChange(e)} />
                     <button style={{ marginLeft: '20px' }} onClick={() => handleClick()}>Search</button>
                 </div>
-                <img src={image} style={{ width: '30%', marginTop: 30 }} />
+                <img src={image} alt="Meaningful description"style={{ width: '30%', marginTop: 30 }} />
             </div>
 
             {
