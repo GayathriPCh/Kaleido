@@ -1,2 +1,1 @@
-# Kaleido
-Color inspiration
+
