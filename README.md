@@ -1,6 +1,6 @@
 # Kaleido
 
-A tool powered by AI that revolutionizes how artists and designers explore colors.
+A tool powered by the Gemini AI that revolutionizes how artists and designers explore colors.
 
 ## Description
 
@@ -18,4 +18,4 @@ Kaleido is a project developed for the Google AI Hackathon within a span of one 
 
 ## Live Site
 
-[Check out Kaleido live!](https://www.kaleido.ai)
+[Check out Kaleido live!](https://main--celebrated-profiterole-6b9e4b.netlify.app/)
